@@ -1,10 +1,9 @@
-# 🎓 Smart Student Performance Predictor
+#  Smart Student Performance Predictor
 
 A Machine Learning web application that predicts whether a student is likely to **Pass** or **Fail** based on academic and lifestyle factors. The application is built using **Python**, **Scikit-learn**, and **Streamlit**, providing an interactive interface for real-time predictions.
 
----
 
-## ✨ Features
+##  Features
 
 - Predicts student academic performance using Machine Learning.
 - Performs data preprocessing and feature engineering.
@@ -15,9 +14,8 @@ A Machine Learning web application that predicts whether a student is likely to 
 - Visualizes student data using charts and graphs.
 - Simple, responsive, and user-friendly interface.
 
----
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - Python
 - Pandas
@@ -27,9 +25,9 @@ A Machine Learning web application that predicts whether a student is likely to 
 - Streamlit
 - Joblib
 
----
 
-## 🚀 How to Run
+
+##  How to Run
 
 ### 1. Clone the Repository
 
@@ -74,9 +72,8 @@ If the browser does not open automatically, visit:
 http://localhost:8501
 ```
 
----
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 Smart-Student-Performance-Predictor/
@@ -95,20 +92,20 @@ Smart-Student-Performance-Predictor/
 └── .gitignore
 ```
 
----
+
 
 ## 📊 Output
 
 The application predicts whether a student is likely to:
 
-- ✅ Pass
-- ❌ Fail
+-  Pass
+-  Fail
 
 based on the input values entered by the user.
 
----
 
-## 👩‍💻 Author
+
+##  Author
 
 **MeghanaDeepak04**
 
