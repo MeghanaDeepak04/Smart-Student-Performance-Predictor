@@ -1,39 +1,44 @@
-# Smart Student Performance Predictor
+## How to Run
 
-A machine learning web application that predicts whether a student is likely to pass or fail based on academic and lifestyle factors.
+### 1. Clone the Repository
 
-## Technologies Used
+```bash
+git clone https://github.com/MeghanaDeepak04/Smart-Student-Performance-Predictor.git
+```
 
-- Python
-- Pandas
-- NumPy
-- Scikit-learn
-- Matplotlib
-- Streamlit
-- Joblib
+### 2. Navigate to the Project Folder
 
-## Features
+```bash
+cd Smart-Student-Performance-Predictor
+```
 
-- Predicts student performance as Pass or Fail
-- Uses study hours, attendance, previous score, sleep hours, and assignments completed
-- Performs machine learning prediction using Random Forest Classifier
-- Displays dataset preview
-- Shows visualizations for study hours, score, and attendance
-- Provides an interactive Streamlit dashboard
+### 3. Install Dependencies
 
-## Project Structure
+```bash
+pip install -r requirements.txt
+```
 
-```text
-Smart-Student-Performance-Predictor/
-│
-├── dataset/
-│   └── student_data.csv
-│
-├── model/
-│   ├── train_model.py
-│   ├── student_model.pkl
-│   └── label_encoder.pkl
-│
-├── app.py
-├── requirements.txt
-└── README.md
+### 4. Train the Machine Learning Model
+
+```bash
+python model/train_model.py
+```
+
+This generates:
+
+- `model/student_model.pkl`
+- `model/label_encoder.pkl`
+
+### 5. Run the Streamlit Application
+
+```bash
+python -m streamlit run app.py
+```
+
+### 6. Open in Browser
+
+If it doesn't open automatically, visit:
+
+```
+http://localhost:8501
+```
